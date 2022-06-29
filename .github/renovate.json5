@@ -94,13 +94,6 @@
       "labels": ["renovate/image", "dep/major"]
     },
     {
-      "lockFileMaintenance": {
-        "matchPackagePatterns": ["*"],
-        "enabled": true,
-        "automerge": true
-      }
-    },
-    {
       "matchDatasources": ["docker"],
       "matchUpdateTypes": ["minor"],
       "labels": ["renovate/image", "dep/minor"]
