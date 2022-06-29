@@ -95,6 +95,7 @@
     },
     {
       "lockFileMaintenance": {
+        "matchPackagePatterns": ["*"],
         "enabled": true,
         "automerge": true
       }
